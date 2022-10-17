@@ -1,14 +1,23 @@
 import React from "react";
 import { FcGoogle } from "react-icons/fc";
-import '../styles/index.css'
+import Tela from "../img/Tela.png";
+import Tela2 from "../img/Tela2.png";
+import Tela3 from "../img/Tela3.png";
+import "../styles/index.css";
 const Index = () => {
   return (
     <>
       <div className="content">
         <div className="left">
-          <div className="card-1 card container"></div>
-          <div className="card-2 card"></div>
-          <div className="card-3 card container"></div>
+          <div className="card-1 card container">
+            <img src={Tela} alt="" />
+          </div>
+          <div className="card-2 card">
+            <img src={Tela2} alt="" />
+          </div>
+          <div className="card-3 card container">
+            <img src={Tela3} alt="" />
+          </div>
         </div>
         <div className="right">
           <h1>White Bord</h1>
