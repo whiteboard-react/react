@@ -3,6 +3,8 @@ import { FcGoogle } from "react-icons/fc";
 import Tela from "../img/Tela.png";
 import Tela2 from "../img/Tela2.png";
 import Tela3 from "../img/Tela3.png";
+import { Link } from "react-router-dom";
+import Home from "./Home";
 import "../styles/index.css";
 const Index = () => {
   return (
@@ -21,7 +23,7 @@ const Index = () => {
         </div>
         <div className="right">
           <h1>White Bord</h1>
-          <form action="Home.jsx" method="post">
+          <form action="" method="post">
             <div className="inputs">
               <input
                 type="email"
@@ -42,7 +44,9 @@ const Index = () => {
             </div>
 
             <div className="btn">
-              <input className="btnlogin" type="submit" value="Login" />
+              <Link to={"/Home"}>
+                <input className="btnlogin" type="submit" value="Login" />
+              </Link>
               <p>Or with</p>
             </div>
 
