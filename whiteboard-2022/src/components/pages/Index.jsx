@@ -4,20 +4,20 @@ import Tela from "../img/Tela.png";
 import Tela2 from "../img/Tela2.png";
 import Tela3 from "../img/Tela3.png";
 import { Link } from "react-router-dom";
-import Home from "./Home";
 import "../styles/index.css";
+
 const Index = () => {
   return (
     <>
       <div className="content">
         <div className="left">
-          <div className="card-1 card container">
+          <div className="card-1 container">
             <img src={Tela} alt="" />
           </div>
-          <div className="card-2 card">
+          <div className="card-2 ">
             <img src={Tela2} alt="" />
           </div>
-          <div className="card-3 card container">
+          <div className="card-3 container">
             <img src={Tela3} alt="" />
           </div>
         </div>

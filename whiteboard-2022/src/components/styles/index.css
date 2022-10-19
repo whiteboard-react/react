@@ -130,16 +130,9 @@ span{
     font-size: 3rem;
 }
 
-.card{
-    width: 305px;
-height: 215px;
-background: var(--color);
-
-}
-
 .card-1 {
     position: absolute;
-    top: 8rem;
+    top: 2rem;
 
 }
 
@@ -156,6 +149,8 @@ background: var(--color);
     position: absolute;
     top: 45rem;
 }
+
+
 
 
 
@@ -299,12 +294,21 @@ span{
 
 .card-3 {
     position: absolute;
-    top: 30rem;
+    top: 25rem;
 }
 
 
-.right{
+.left{
 
+    width: 70%;
+    background: #27798B;
+    height: 100vh;
+    position: relative;
+
+}
+
+.right{
+width: 70%;
     margin-top: 12rem;
     background: #ffffff;
     display: flex;
@@ -403,6 +407,17 @@ span{
     font-size: 2rem;
 }
 
+.card-1 img{
+    width: 19rem;
+}
+
+.card-3 img{
+    width: 19rem;
+}
+
+
+
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -415,6 +430,7 @@ span{
     
 }
 
+
 .left .card-2{
    display: none;
 
@@ -422,7 +438,7 @@ span{
 
 .card-3 {
     position: absolute;
-    top: 30rem;
+    top: 40rem;
 }
 
 
@@ -546,9 +562,12 @@ a{
 }
 
 .left .card-2{
+  
    display: grid;
 
+
 }
+
 
 .content{
     display: flex;
@@ -556,15 +575,21 @@ a{
 }
 
 .left{
-    width: 45%;
+    width: 50%;
     background: #27798B;
     height: 100vh;
     position: relative;
 
 }
 
+.card img{
+    margin-top: 3rem;
+    width: 20rem;
+    height: 15rem;
+}
+
 .right{
-    width: 55%;
+    width: 50%;
     background: #ffffff;
     display: flex;
     flex-direction: column;
@@ -661,30 +686,36 @@ span{
     font-size: 3rem;
 }
 
-.card{
-    width: 305px;
-height: 215px;
-background: var(--color);
 
-}
 
 .card-1 {
     position: absolute;
-    top: 8rem;
+    top: 2rem;
 
+}
+
+.card-1 img{
+  width: 22rem;
 }
 
 
 .card-2 {
     position: absolute;
-    top: 26rem;
-    left: 28rem;
+    top: 23rem;
+    left: 34rem;
 }
 
+.card-2 img{
+  width: 22rem;
+}
 
 
 .card-3 {
     position: absolute;
-    top: 45rem;
+    top: 40rem;
+}
+
+.card-3 img{
+  width: 22rem;
 }
 }
